@@ -170,10 +170,13 @@ function initBtnEvent(){
     const btn = document.querySelector('.play')
     btn.addEventListener('click', e => {
         const gameElements = document.querySelectorAll('[wm-flappy] div')
+        const progressSpan = document.querySelector('.progresso')
 
         gameElements.forEach(el => {
             el.style.display = 'none'
         });
+
+        if (progressSpan) progressSpan.style.display = 'none'
 
         const passaroEl = document.querySelectorAll('.passaro')
         passaroEl.forEach(el => {
