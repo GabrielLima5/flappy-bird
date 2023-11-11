@@ -83,3 +83,9 @@
     font-size: 2em;
     color: white;
 }
+
+@media only screen and (max-width: 1200px){
+    [wm-flappy]{
+        width: 100%;
+    }
+}

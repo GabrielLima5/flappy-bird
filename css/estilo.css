@@ -21,8 +21,13 @@ body {
 .conteudo {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     min-height: 100%;
+}
+
+.conteudo h1{
+    font-size: 4em;
 }
 
 .exercicio div {
